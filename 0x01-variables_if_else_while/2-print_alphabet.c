@@ -1,18 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 /**
  * main - A program to print the alphabets
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char low;
+	char k;
 
-	for (low = 'a'; low <= z; low++)
-	{
-		putchar(low);
-	}
+	for (k = 'a'; k <= z; k++)
+	putchar(k);
 	putchar("\n");
 	return (0);
 }
