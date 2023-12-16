@@ -1,16 +1,17 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
  * main - A program to print the alphabets
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char low;
 
-	for (i = 0; i < 26; i++);
+	for (low = 'a'; low <= z; low++)
 	{
-		putchar(alp[i]);
+		putchar(low);
 	}
 	putchar("\n");
 	return (0);
