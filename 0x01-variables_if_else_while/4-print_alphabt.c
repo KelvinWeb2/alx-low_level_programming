@@ -7,14 +7,14 @@
  */
 int main(void)
 {
-	char kul, k, v;
+	char kul, e, q;
 
-	k = 'k';
-	v = 'v';
+	e = 'e';
+	q = 'q';
 
 	for (kul = 'a'; kul <= 'z'; kul++)
 	{
-		if (kul != k && kul != v)
+		if (kul != e && kul != q)
 		{
 			putchar(kul);
 		}
