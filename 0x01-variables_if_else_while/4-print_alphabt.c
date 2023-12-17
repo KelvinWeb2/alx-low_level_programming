@@ -14,7 +14,7 @@ int main(void)
 
 	for (kul = 'a'; kul <= 'z'; kul++)
 	{
-		if (kul != k && kul != q)
+		if (kul != k && kul != v)
 		{
 			putchar(kul);
 		}
