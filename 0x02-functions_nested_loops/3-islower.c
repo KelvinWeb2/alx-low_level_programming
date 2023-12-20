@@ -4,9 +4,9 @@
  * @c: The character to be checked
  * Return: 1 for lower case or 0 for anything else
  */
-int _islower(int k)
+int _islower(int c)
 {
-	if (k >= 97 && k <= 122)
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
