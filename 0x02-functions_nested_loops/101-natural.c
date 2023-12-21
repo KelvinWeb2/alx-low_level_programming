@@ -5,16 +5,16 @@
  */
 int main(void)
 {
-	int j, e = 0;
+	int i, z = 0;
 	
-	while (j < 1024)
+	while (i < 1024)
 	{
-		if ((j % 3 == 0) || (e % 5 == 0))
+		if ((i % 3 == 0) || (z % 5 == 0))
 		{
-			e += 1;
+			z += 1;
 		}
-		j++;
+		i++;
 	}
-	printf("%d\n", e);
+	printf("%d\n", z);
 	return (0);
 }
